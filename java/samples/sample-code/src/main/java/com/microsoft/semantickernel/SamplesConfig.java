@@ -11,7 +11,7 @@ import java.util.List;
 public class SamplesConfig {
 
     public static final List<File> DEFAULT_PROPERTIES_LOCATIONS = List.of(
-            new File("java/samples/conf.properties")
+            new File(System.getProperty("user.dir"), "java\\samples\\sample-code\\src\\main\\java\\com\\microsoft\\semantickernel\\samples\\conf.properties")
     );
 
 

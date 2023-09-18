@@ -40,8 +40,8 @@ public class Example00_GettingStarted {
      */
     public static Kernel getKernel(OpenAIAsyncClient client) {
         Kernel kernel = SKBuilders.kernel()
-                .withDefaultAIService(SKBuilders.textCompletion()
-                        .withModelId("text-davinci-003")
+                .withDefaultAIService(SKBuilders.chatCompletion() //.textCompletion()
+                        .withModelId("gpt-4-mse")
                         .withOpenAIClient(client)
                         .build())
                 .build();

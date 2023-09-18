@@ -9,6 +9,7 @@ package com.microsoft.semantickernel.samples;
 import com.azure.ai.openai.OpenAIAsyncClient;
 import com.microsoft.semantickernel.Kernel;
 import com.microsoft.semantickernel.SKBuilders;
+import com.microsoft.semantickernel.SamplesConfig;
 import com.microsoft.semantickernel.connectors.ai.openai.util.OpenAIClientProvider;
 import com.microsoft.semantickernel.exceptions.ConfigurationException;
 import com.microsoft.semantickernel.orchestration.SKContext;
@@ -111,6 +112,11 @@ public class Example04_ContextVariablesChat {
     }
 
     public static void main(String args[]) throws ConfigurationException, ExecutionException, InterruptedException, TimeoutException {
-        run(OpenAIClientProvider.getClient());
+
+
+      OpenAIAsyncClient client = SamplesConfig.getClient();
+
+     // run(OpenAIClientProvider.getClient());
+      run(client);
     }
 }
