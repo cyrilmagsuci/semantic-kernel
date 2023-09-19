@@ -7,7 +7,7 @@
 [![License: MIT](https://img.shields.io/github/license/microsoft/semantic-kernel)](https://github.com/microsoft/semantic-kernel/blob/main/LICENSE)
 [![Discord](https://img.shields.io/discord/1063152441819942922?label=Discord&logo=discord&logoColor=white&color=d82679)](https://aka.ms/SKDiscord)
 
-> ℹ️ **NOTE**: This project is just like AI and will evolve quickly.
+> ℹ️ **NOTE**: This is modified by MCDM. This project is just like AI and will evolve quickly.
 > We invite you to join us in developing the Semantic Kernel together!
 > Please contribute by
 > using GitHub [Discussions](https://github.com/microsoft/semantic-kernel/discussions),
